@@ -4,7 +4,7 @@ using DependencyInjection.Container;
 
 namespace DependencyInjection.Builder.Scope
 {
-    public class SingletonScope<TActualType> : IScope<TActualType>
+    internal class SingletonScope<TActualType> : IScope<TActualType>
     {
         private readonly Lazy<TActualType> _actualType;
 

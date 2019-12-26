@@ -3,7 +3,7 @@ using DependencyInjection.Container;
 
 namespace DependencyInjection.Builder.Scope
 {
-    public class TransientScope<TActualType> : IScope<TActualType>
+    internal class TransientScope<TActualType> : IScope<TActualType>
     {
         private readonly IReadonlyContainer _container;
 

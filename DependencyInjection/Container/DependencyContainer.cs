@@ -4,14 +4,14 @@ using DependencyInjection.Builder.Scope;
 
 namespace DependencyInjection.Container
 {
-    internal class Container : IReadonlyContainer
+    internal class DependencyContainer : IReadonlyContainer
     {
         private readonly IDictionary<Type, Func<dynamic>> _dependencies =
             new Dictionary<Type, Func<dynamic>>();
 
-        public Container()
+        public DependencyContainer()
         {
-            Register<IReadonlyContainer, Container>(new ConstantScope<Container>(this));
+            Register<IReadonlyContainer, DependencyContainer>(new ConstantScope<DependencyContainer>(this));
         }
 
         public void Register<TRequestedType, TActualType>(IScope<TActualType> scopeContainer) where TActualType : TRequestedType

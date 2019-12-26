@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_DependencyInjection.1851456590.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DependencyInjection" t="IncludeRecursive">
+        <e p="Builder" t="Include">
+          <e p="ContainerBuilder.cs" t="Include" />
+          <e p="Helpers" t="Include">
+            <e p="ConstructorHelper.cs" t="Include" />
+          </e>
+          <e p="PendingBind.cs" t="Include" />
+          <e p="Scope" t="Include">
+            <e p="ConstantScope.cs" t="Include" />
+            <e p="IScope.cs" t="Include" />
+            <e p="SingletonScope.cs" t="Include" />
+            <e p="TransientScope.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Container" t="Include">
+          <e p="DependencyContainer.cs" t="Include" />
+          <e p="DuplicateDependencyException.cs" t="Include" />
+          <e p="IReadonlyContainer.cs" t="Include" />
+          <e p="RequestedDependencyNotFoundException.cs" t="Include" />
+        </e>
+        <e p="DependencyInjection.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DependencyInjection.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DependencyInjection.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

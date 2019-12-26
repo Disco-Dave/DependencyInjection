@@ -1,6 +1,6 @@
 namespace DependencyInjection.Builder.Scope
 {
-    public class ConstantScope<TActualType> : IScope<TActualType>
+    internal class ConstantScope<TActualType> : IScope<TActualType>
     {
         private readonly TActualType _actualInstance;
 
