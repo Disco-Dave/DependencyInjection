@@ -16,11 +16,6 @@ namespace DependencyInjection.Container
                 ?.MakeGenericMethod(instanceType)
                 .Invoke(kernel, null);
 
-            if (instance == null)
-            {
-                throw new RequestedDependencyNotFoundException(instanceType);
-            }
-
             return instance;
         }
     }
