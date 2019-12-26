@@ -49,7 +49,7 @@ namespace Example
                 .Create();
 
             var something = container.Get<ISomething>();
-            var foo = something.Foo();
+            var foo = something.Foo(); // = 246
         }
     }
 }
