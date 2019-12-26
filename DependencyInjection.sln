@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{CA62F173-8571-4BD7-81D0-5FB774C5A2B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{CA62F173-8571-4BD7-81D0-5FB774C5A2B0}.Release|x64.Build.0 = Release|Any CPU
 		{CA62F173-8571-4BD7-81D0-5FB774C5A2B0}.Release|x86.ActiveCfg = Release|Any CPU
 		{CA62F173-8571-4BD7-81D0-5FB774C5A2B0}.Release|x86.Build.0 = Release|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Debug|x64.Build.0 = Debug|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Debug|x86.Build.0 = Debug|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Release|x64.ActiveCfg = Release|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Release|x64.Build.0 = Release|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Release|x86.ActiveCfg = Release|Any CPU
+		{B12DDDE0-ABDB-4BDB-A7A7-2F017F2B407F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

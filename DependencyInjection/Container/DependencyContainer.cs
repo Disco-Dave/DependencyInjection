@@ -17,7 +17,7 @@ namespace DependencyInjection.Container
         public void Register<TRequestedType, TActualType>(IScope<TActualType> scopeContainer) where TActualType : TRequestedType
         {
             dynamic GetActualType() => scopeContainer.Get();
-            if (_dependencies.TryAdd(typeof(TRequestedType), GetActualType))
+            if (!_dependencies.TryAdd(typeof(TRequestedType), GetActualType))
             {
                 throw new DuplicateDependencyException(typeof(TRequestedType));
             }
